@@ -20,12 +20,12 @@ namespace E_shop_30063614
             Console.WriteLine("would you like too purchase this item?");
             Console.WriteLine("\t[y] Yes");
             Console.WriteLine("\t[n] No");
-            if (userOption != "y")
+            if (userOption == "y")
             {
 
 
             }
-            else _ = (userOption != "n");
+            else
             {
 
             }
@@ -38,10 +38,6 @@ namespace E_shop_30063614
             Console.WriteLine("\t      Welcome to Appliace Plus\n");
             Console.WriteLine("\t   Please enter your name to continue");
             Console.WriteLine("*******************************************************");
-
-
-
-
             MainMenu();
 
         }
@@ -158,14 +154,14 @@ namespace E_shop_30063614
                     Console.WriteLine("\tThe TCL 32S615 HD Android TV is a brand new 2020 model that comes equipped with AI integration \n\tand a TCL entertainment hub that gives the user access to Netflix, Youtube, and Amazon prime.");
                     Console.WriteLine("\t\n The price of the TV you have chosen is $479");
                     price = 479;
-
+                    Console.WriteLine(balance - price);
 
 
 
                 }
                 if (userOption == "7")
                 {
-                    Console.WriteLine("\t\ntest");
+                    Console.WriteLine("\t\n");
                     Console.WriteLine("\t\n ");
 
 
@@ -183,11 +179,11 @@ namespace E_shop_30063614
                 Console.WriteLine("\t*******************************************************");
             Console.WriteLine("\tWelcome to the Fridge section of Appliace Plus\n");
             Console.WriteLine("\tPlease select a Fridge that looks apealing to you\n");
-            Console.WriteLine("\t [1] HAIR 320L TOP FOUNT F/F\n");
-            Console.WriteLine("\t [2] ROBINHOOD 221L BOTTOM MOUNT F/F \n");
-            Console.WriteLine("\t [3] SAMSUNNG 360L TOP MOUNT FRIDGE \n");
-            Console.WriteLine("\t [4] FISHER&PAYKEAL DOUBLE DOOR F/F 645L\n");
-            Console.WriteLine("\t [5] PANASONIC DOUBLE DOOR 550L F/F\n");
+            Console.WriteLine("\t [11] HAIR 320L TOP FOUNT F/F\n");
+            Console.WriteLine("\t [12] ROBINHOOD 221L BOTTOM MOUNT F/F \n");
+            Console.WriteLine("\t [13] SAMSUNNG 360L TOP MOUNT FRIDGE \n");
+            Console.WriteLine("\t [14] FISHER&PAYKEAL DOUBLE DOOR F/F 645L\n");
+            Console.WriteLine("\t [15] PANASONIC DOUBLE DOOR 550L F/F\n");
             Console.WriteLine("*******************************************************");
 
             CheckInput();
@@ -199,11 +195,11 @@ namespace E_shop_30063614
                 Console.WriteLine("\t*******************************************************");
                 Console.WriteLine("\tWelcome to the dishwasher section of Appliace Plus\n");
                 Console.WriteLine("\tPlease select a dishwasher that fits your energy reqirements\n");
-                Console.WriteLine("\t [1] WESTINGHOUSE 60CM /W FREESTANDING DISHWASHER \n");
-                Console.WriteLine("\t [2] SAMSUNG 60CM S/S FREESTANDING DISHWASHER \n");
-                Console.WriteLine("\t [3] BEKO 30CM S/S FREEESTANDING DISHWASHER \n");
-                Console.WriteLine("\t [4] PARMCO 60VM /B FREESTANDING DISHWASHER\n");
-                Console.WriteLine("\t [5] FISHER&PAYKEL 60CM S/S FRESTANDING DISHWASHER \n");
+                Console.WriteLine("\t [16] WESTINGHOUSE 60CM /W FREESTANDING DISHWASHER \n");
+                Console.WriteLine("\t [17] SAMSUNG 60CM S/S FREESTANDING DISHWASHER \n");
+                Console.WriteLine("\t [18] BEKO 30CM S/S FREEESTANDING DISHWASHER \n");
+                Console.WriteLine("\t [19] PARMCO 60VM /B FREESTANDING DISHWASHER\n");
+                Console.WriteLine("\t [20] FISHER&PAYKEL 60CM S/S FRESTANDING DISHWASHER \n");
                 Console.WriteLine("*******************************************************");
 
                 CheckInput();
